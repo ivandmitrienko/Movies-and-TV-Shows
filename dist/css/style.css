@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+@font-face {
+  font-family: Outfit;
+  font-display: swap;
+  src: url("../fonts/Outfit-Light.woff2") format("woff2"), url("../fonts/Outfit-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  background-color: #10141E;
+}
+
+.login {
+  margin: 187px auto 0;
+  max-width: 400px;
+  max-height: 50%;
+  background: #161D2F;
+  border-radius: 20px;
+  padding: 32px;
+}
+
+h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.authentication {
+  display: flex;
+  flex-direction: column;
+}
+
+.authentication label {
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  padding-left: 16px;
+}
+
+.authentication input {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background-color: #161D2F;
+  border-bottom: 1px solid #5A698F;
+}
+
+.authentication input:not(#authentication-password__second) {
+  margin-bottom: 24px;
+}

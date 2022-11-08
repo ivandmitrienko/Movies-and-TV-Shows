@@ -1,22 +1,11 @@
 @font-face {
 	font-family: 
-                   OTF;
+                   Outfit;
 	font-display: swap;
 	src: 
-              url("../fonts/OTF.woff2") format("woff2"), 
-              url("../fonts/OTF.woff") format("woff");
+              url("../fonts/Outfit-Light.woff2") format("woff2"), 
+              url("../fonts/Outfit-Light.woff") format("woff");
 	font-weight: 
-              400;
-	font-style: normal;
-}
-@font-face {
-	font-family: 
-                   facon;
-	font-display: swap;
-	src: 
-              url("../fonts/facon.woff2") format("woff2"), 
-              url("../fonts/facon.woff") format("woff");
-	font-weight: 
-              400;
+              300;
 	font-style: normal;
 }
