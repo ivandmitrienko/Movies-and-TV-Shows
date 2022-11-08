@@ -1,5 +1,16 @@
 @font-face {
 	font-family: 
+                   OTF;
+	font-display: swap;
+	src: 
+              url("../fonts/OTF.woff2") format("woff2"), 
+              url("../fonts/OTF.woff") format("woff");
+	font-weight: 
+              400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 
                    facon;
 	font-display: swap;
 	src: 
