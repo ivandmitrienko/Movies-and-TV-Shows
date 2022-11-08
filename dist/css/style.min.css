@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+body span {
+  color: red;
+}
+
+@media (max-width: 650px) {
+  span {
+    font-size: x-small;
+  }
+}
+@media (max-width: 650px) {
+  body {
+    font-family: serif;
+  }
+}
