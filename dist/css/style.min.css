@@ -94,6 +94,13 @@ body .login .create-account, body .login .authentication-button button, body .lo
 body {
   background-color: #10141E;
 }
+body .movieIcon {
+  position: absolute;
+  width: 32px;
+  height: 25.6px;
+  top: 78.41px;
+  left: calc(50% - 16px);
+}
 body .login {
   margin: 187px auto 0;
   max-width: 400px;
@@ -120,6 +127,14 @@ body .login .authentication input {
   background-color: #161D2F;
   border-bottom: 1px solid #5A698F;
   margin-bottom: 24px;
+  padding: 0 0 17px 16px;
+  cursor: pointer;
+}
+body .login .authentication input:hover {
+  border-color: #FFFFFF;
+}
+body .login .authentication-password-second {
+  display: none;
 }
 body .login .authentication-button button {
   margin: 16px 0 24px;
@@ -129,13 +144,20 @@ body .login .authentication-button button {
   border-radius: 6px;
   text-align: center;
 }
+body .login .authentication-button button:hover {
+  background-color: #FFFFFF;
+  color: #161D2F;
+}
 body .login .create-account {
   width: 216px;
   margin: 0 auto;
 }
 body .login .create-account__question {
-  margin-right: 6px;
+  margin-right: 3px;
 }
 body .login .create-account__sign-up {
   color: #FC4747;
+}
+body .login .create-account__sign-up:hover {
+  cursor: pointer;
 }

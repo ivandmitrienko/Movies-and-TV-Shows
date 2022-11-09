@@ -7,12 +7,23 @@
     color: #FFFFFF; 
 }
 
+$white: #FFFFFF;
+$black: #161D2F;
+$red: #FC4747;
+
 * {
     font-family: 'Outfit';
 }
 
 body{
     background-color: #10141E;
+    .movieIcon{
+        position: absolute;
+        width: 32px;
+        height: 25.6px;
+        top: 78.41px;
+        left: calc(50% - 32px/2);
+    }
     .login {
         margin: 187px auto 0;
         max-width: 400px;
@@ -24,7 +35,7 @@ body{
             font-size: 32px;
             line-height: 40px;
             letter-spacing: -0.5px; 
-            color: #FFFFFF;
+            color: $white;
             margin-bottom: 40px;     
         }
         .authentication{
@@ -33,22 +44,34 @@ body{
             input{
                 display: block;
                 width: 100%;
-                caret-color:#FC4747;
+                caret-color: $red;
                 @extend %tplfont1;
-                background-color: #161D2F;
+                background-color: $black;
                 border-bottom: 1px solid #5A698F;
                 margin-bottom: 24px;
+                padding: 0 0 17px 16px;
+                cursor: pointer;
+                &:hover{
+                    border-color: $white;
+                }
             }
         } 
+        .authentication-password-second{
+            display: none;
+        }
         .authentication-button {
             button{
                 margin: 16px 0 24px;
                 height: 48px;
                 width: 100%;
-                background: #FC4747;
+                background: $red;
                 border-radius: 6px;
                 @extend %tplfont1; 
                 text-align: center;
+                &:hover{
+                    background-color: $white;
+                    color: $black;
+                }
             }
         } 
         .create-account {
@@ -56,10 +79,13 @@ body{
             margin: 0 auto;
             @extend %tplfont1;
             &__question {
-                margin-right: 6px;
+                margin-right: 3px;
             } 
             &__sign-up {
                color: #FC4747;
+               &:hover{
+                   cursor: pointer;
+               }
             }
         }  
     }    
