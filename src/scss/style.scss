@@ -1,55 +1,71 @@
 @import './partials/zeroing.scss';
 @import './fonts.scss';
 
+%tplfont1{
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF; 
+}
+
+* {
+    font-family: 'Outfit';
+}
 
 body{
     background-color: #10141E;
+    .login {
+        margin: 187px auto 0;
+        max-width: 400px;
+        max-height: 50%;
+        background: #161D2F;
+        border-radius: 20px;
+        padding: 32px;
+        h1 {
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: -0.5px; 
+            color: #FFFFFF;
+            margin-bottom: 40px;     
+        }
+        .authentication{
+            display: flex;
+            flex-direction: column;
+            input{
+                display: block;
+                width: 100%;
+                caret-color:#FC4747;
+                @extend %tplfont1;
+                background-color: #161D2F;
+                border-bottom: 1px solid #5A698F;
+                margin-bottom: 24px;
+            }
+        } 
+        .authentication-button {
+            button{
+                margin: 16px 0 24px;
+                height: 48px;
+                width: 100%;
+                background: #FC4747;
+                border-radius: 6px;
+                @extend %tplfont1; 
+                text-align: center;
+            }
+        } 
+        .create-account {
+            width: 216px;
+            margin: 0 auto;
+            @extend %tplfont1;
+            &__question {
+                margin-right: 6px;
+            } 
+            &__sign-up {
+               color: #FC4747;
+            }
+        }  
+    }    
 }   
 
-.login {
-    margin: 187px auto 0;
-    max-width: 400px;
-    max-height: 50%;
-    background: #161D2F;
-    border-radius: 20px;
-    padding: 32px;
-}
 
-h1{
-    font-family: 'Outfit';
-    font-style: normal;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -0.5px; 
-    color: #FFFFFF;
-    margin-bottom: 40px;     
-}
 
-.authentication{
-    display: flex;
-    flex-direction: column;
-}
 
-.authentication label{
-    font-size: 15px;
-    line-height: 19px;
-    color: #FFFFFF;  
-    mix-blend-mode: normal;
-    opacity: 0.5;
-    padding-left: 16px;
-}
-
-.authentication input{
-    display: block;
-    width: 100%;
-    font-size: 15px;
-    line-height: 19px;
-    color: #FFFFFF;  
-    background-color: #161D2F;
-    border-bottom: 1px solid #5A698F;
-}
-
-.authentication input:not(#authentication-password__second){
-    margin-bottom: 24px;
-}
 

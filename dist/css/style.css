@@ -81,11 +81,20 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   font-style: normal;
 }
+body .login .create-account, body .login .authentication-button button, body .login .authentication input {
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+* {
+  font-family: "Outfit";
+}
+
 body {
   background-color: #10141E;
 }
-
-.login {
+body .login {
   margin: 187px auto 0;
   max-width: 400px;
   max-height: 50%;
@@ -93,41 +102,40 @@ body {
   border-radius: 20px;
   padding: 32px;
 }
-
-h1 {
-  font-family: "Outfit";
-  font-style: normal;
+body .login h1 {
   font-size: 32px;
   line-height: 40px;
   letter-spacing: -0.5px;
   color: #FFFFFF;
   margin-bottom: 40px;
 }
-
-.authentication {
+body .login .authentication {
   display: flex;
   flex-direction: column;
 }
-
-.authentication label {
-  font-size: 15px;
-  line-height: 19px;
-  color: #FFFFFF;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-  padding-left: 16px;
-}
-
-.authentication input {
+body .login .authentication input {
   display: block;
   width: 100%;
-  font-size: 15px;
-  line-height: 19px;
-  color: #FFFFFF;
+  caret-color: #FC4747;
   background-color: #161D2F;
   border-bottom: 1px solid #5A698F;
-}
-
-.authentication input:not(#authentication-password__second) {
   margin-bottom: 24px;
+}
+body .login .authentication-button button {
+  margin: 16px 0 24px;
+  height: 48px;
+  width: 100%;
+  background: #FC4747;
+  border-radius: 6px;
+  text-align: center;
+}
+body .login .create-account {
+  width: 216px;
+  margin: 0 auto;
+}
+body .login .create-account__question {
+  margin-right: 6px;
+}
+body .login .create-account__sign-up {
+  color: #FC4747;
 }
