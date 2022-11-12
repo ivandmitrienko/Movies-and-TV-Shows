@@ -15,23 +15,23 @@
     </div>
     <div class="login">
         <h1>Login</h1>
-        <div class="authentication">
+        <form action="#" enctype="multipart/form-data" class="authentication">
             <div class="authentication-email">
-                <span class="authentication-email__address">ascaca</span>
-                <input placeholder="Email address" type="email">
+                <span class="error errorInSpan emailSpan"></span>
+                <input placeholder="Email address" type="email" class="field">
             </div>
             <div class="authentication-password-first">
-                <span class="authentication-email__address">ascaca</span>
-                <input placeholder="Password" type="password">
+                <span class="error errorInSpan firstPasswordSpan"></span>
+                <input id="userPassword" placeholder="Password" type="password" class="field">
             </div>
             <div class="authentication-password-second">
-                <span class="authentication-email__address">ascaca</span>
-                <input placeholder="Repeat password" type="password">
+                <span class="error errorInSpan secondPasswordSpan"></span>
+                <input placeholder="Repeat password" type="password" class="field">
             </div>
             <div class="authentication-button">
-                <button>Login to your account</button>
+                <input type="submit" value="Login to your account" class="authentication-button__submit">
             </div>
-        </div>
+        </form>
         <div class="create-account">
             <span class="create-account__question">Don’t have an account?</span>
             <span class="create-account__sign-up">Sign Up</span>
