@@ -1,5 +1,6 @@
 @import './partials/zeroing.scss';
 @import './fonts.scss';
+@import './partials/root.scss';
 
 %tplfont1{
     font-size: 15px;
@@ -17,6 +18,9 @@ $red: #FC4747;
 
 body{
     background-color: #10141E;
+    .user-authentification{
+        display: none; // yes and delete
+    }
     .movieIcon{
         position: absolute;
         width: 32px;
@@ -114,7 +118,7 @@ body{
                }
             }
         }  
-    }    
+    } 
 }   
 
 

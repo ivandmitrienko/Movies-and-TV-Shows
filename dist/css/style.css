@@ -81,6 +81,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   font-style: normal;
 }
+#root {
+  display: block;
+}
+#root .sidebar {
+  position: fixed;
+  left: 32px;
+  top: 32px;
+  width: 96px;
+  height: 890px;
+  background: #161D2F;
+  border-radius: 20px;
+}
+
 body .login .create-account, body .login .authentication .authentication-button__submit, body .login .authentication input:not(.authentication-button__submit) {
   font-size: 15px;
   line-height: 19px;
@@ -93,6 +106,9 @@ body .login .create-account, body .login .authentication .authentication-button_
 
 body {
   background-color: #10141E;
+}
+body .user-authentification {
+  display: none;
 }
 body .movieIcon {
   position: absolute;

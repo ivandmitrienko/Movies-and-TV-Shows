@@ -1,5 +1,6 @@
 'use strict'
 
+const userAuthentification = document.querySelector('.user-authentification');
 const form = document.querySelector('.authentication');
 const fields = form.querySelectorAll('.field');
 const errorsInFields = Array.from(fields);
@@ -9,6 +10,7 @@ const questionOfAuthentification = document.querySelector('.create-account__ques
 const titleOfenterToAccount = document.getElementsByTagName('h1')[0];
 const buttonOfenterToAccount = document.querySelector('.authentication-button__submit');
 const repeatPassword = document.querySelector('.authentication-password-second');
+const root = document.getElementById('root');
 let arrFocus = []; // for errors
 
 signUpToAccount.addEventListener('click', () => {
@@ -46,6 +48,9 @@ form.addEventListener('submit', (EO) => {
     if (arrFocus.length) {
         arrFocus[0].focus();
         EO.preventDefault();
+    } else {
+        userAuthentification.style.display = 'none';
+        root.style.display = 'block';
     }
 })
 
