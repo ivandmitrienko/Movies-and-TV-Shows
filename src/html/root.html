@@ -2,9 +2,25 @@
     <div class="sidebar">
         <div class="sidebar-items">
             @@include('./movieIcon.html')
-            @@include('./Icons.html',{
-                "src":"../img/Shape.svg"
-            })
+            <div class="sidebar-items-icons">
+                @@include('./Icons.html',{
+                    "src":"../img/Shape.svg"
+                })
+                @@include('./Icons.html',{
+                    "src":"../img/Movies.svg"
+                })
+                @@include('./Icons.html',{
+                    "src":"../img/tv.svg"
+                })
+                @@include('./Icons.html',{
+                    "src":"../img/Bookmark.svg"
+                })
+            </div>
+            <div class="content">
+                <div class="content-search">
+                    <input type="text" placeholder="Search for movies or TV series">
+                </div>
+            </div>
         </div>
     </div>
 </div>
