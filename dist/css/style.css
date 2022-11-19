@@ -158,6 +158,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
 }
+#root .content #content-video .homePage .trending h1 {
+  color: #FFFFFF;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  margin: 34px 0 25px 0;
+}
 
 body .login .create-account, body .login .authentication .authentication-button__submit, body .login .authentication input:not(.authentication-button__submit) {
   font-size: 15px;
