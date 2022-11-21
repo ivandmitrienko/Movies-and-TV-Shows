@@ -19,8 +19,7 @@ function getTrendingItemsBE(result) {
     result.forEach((item)=>{
         let trendingItem = document.createElement('div');
         trendingItem.className = 'trending-items__item'; 
-        trendingItem.style.backgroundImage = item.image;
-        console.log(item.image);
+        trendingItem.style.backgroundImage = `url(${item.image})`;
         return trendingItems.appendChild(trendingItem);
     })
 }
