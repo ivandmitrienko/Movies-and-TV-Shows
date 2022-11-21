@@ -12,13 +12,15 @@ const trendingTitle = document.createElement('h1');
 trendingTitle.innerText = 'Trending'
 trending.appendChild(trendingTitle);
 const trendingItems = document.createElement('div');
-trendingItems.className = 'trending__items';
+trendingItems.className = 'trending-items';
 trending.appendChild(trendingItems);
 
 function getTrendingItemsBE(result) {
     result.forEach((item)=>{
         let trendingItem = document.createElement('div');
-        trendingItem.innerText = item.title;
+        trendingItem.className = 'trending-items__item'; 
+        trendingItem.style.backgroundImage = item.image;
+        console.log(item.image);
         return trendingItems.appendChild(trendingItem);
     })
 }

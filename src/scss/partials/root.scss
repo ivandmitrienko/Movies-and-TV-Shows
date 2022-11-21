@@ -83,6 +83,12 @@
                         letter-spacing: -0.5px;
                         margin: 34px 0 25px 0;
                     }
+                    &-items{
+                        &__item{
+                            width: 470px;
+                            height: 230px;
+                        }
+                    }
                 }
             }
         }

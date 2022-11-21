@@ -33,7 +33,7 @@
             "age": "PG-13",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
-            "image": "../imagesOfVideo/mario.jpg"
+            "image": "../imagesOfVideo/guardians.jpg"
         }
     ],
     "recommended": [
@@ -70,7 +70,7 @@
             "age": "PG-13",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
-            "image": "../imagesOfVideo/mario.jpg"
+            "image": "../imagesOfVideo/guardians.jpg"
         },
         {
             "title": "JOHN WICK: Chapter 4",
@@ -105,7 +105,7 @@
             "age": "PG-13",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
-            "image": "../imagesOfVideo/mario.jpg"
+            "image": "../imagesOfVideo/guardians.jpg"
         }
     ],
     "movies": [
@@ -142,7 +142,7 @@
             "age": "PG-13",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
-            "image": "../imagesOfVideo/mario.jpg"
+            "image": "../imagesOfVideo/guardians.jpg"
         },
         {
             "title": "JOHN WICK: Chapter 4",
@@ -177,7 +177,7 @@
             "age": "PG-13",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
-            "image": "../imagesOfVideo/mario.jpg"
+            "image": "../imagesOfVideo/guardians.jpg"
         },
         {
             "title": "JOHN WICK: Chapter 4",
@@ -212,7 +212,7 @@
             "age": "PG-13",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
-            "image": "../imagesOfVideo/mario.jpg"
+            "image": "../imagesOfVideo/guardians.jpg"
         },
         {
             "title": "JOHN WICK: Chapter 4",
@@ -247,7 +247,7 @@
             "age": "PG-13",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
-            "image": "../imagesOfVideo/mario.jpg"
+            "image": "../imagesOfVideo/guardians.jpg"
         },
         {
             "title": "JOHN WICK: Chapter 4",
@@ -282,7 +282,7 @@
             "age": "PG-13",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
-            "image": "../imagesOfVideo/mario.jpg"
+            "image": "../imagesOfVideo/guardians.jpg"
         }
     ],
     "TVseries": [
