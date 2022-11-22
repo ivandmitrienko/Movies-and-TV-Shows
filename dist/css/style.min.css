@@ -186,6 +186,9 @@ h1, h2, h3, h4, h5, h6 {
   mix-blend-mode: normal;
   opacity: 0.5;
 }
+#root .content #content-video .homePage .trending-items__item-bookmarket svg {
+  opacity: 1;
+}
 
 body .login .create-account, body .login .authentication .authentication-button__submit, body .login .authentication input:not(.authentication-button__submit) {
   font-size: 15px;

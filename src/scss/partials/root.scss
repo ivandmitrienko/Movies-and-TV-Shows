@@ -101,6 +101,9 @@
                                 background: #10141E;
                                 mix-blend-mode: normal;
                                 opacity: 0.5;
+                                & svg{
+                                    opacity: 1;
+                                }
                             }
                         }
                     }
