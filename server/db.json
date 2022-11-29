@@ -5,35 +5,446 @@
             "age": "18+",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
-            "image": "img/imagesOfVideo/maxresdefault.jpg"
+            "image": "img/imagesOfVideo/maxresdefault.jpg",
+            "icon": "img/Movies.svg"
         },
         {
             "title": "THE WHALE",
             "age": "PG",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
-            "image": "img/imagesOfVideo/whale.jpg"
+            "image": "img/imagesOfVideo/whale.jpg",
+            "icon": "img/Movies.svg"
         },
         {
             "title": "AVATAR 2",
             "age": "G",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
-            "image": "img/imagesOfVideo/avatar.jpg"
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/Movies.svg"
         },
         {
             "title": "SUPER MARIO BROS",
             "age": "G",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
-            "image": "img/imagesOfVideo/mario.jpg"
+            "image": "img/imagesOfVideo/mario.jpg",
+            "icon": "img/Movies.svg"
         },
         {
             "title": "The Guardians Of The Galaxy Vol. 3",
             "age": "PG-13",
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
-            "image": "img/imagesOfVideo/guardians.jpg"
+            "image": "img/imagesOfVideo/guardians.jpg",
+            "icon": "img/Movies.svg"
         }
-    ] 
+    ],
+    "recommended": [
+        {
+            "title": "JOHN WICK: Chapter 4",
+            "age": "18+",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
+            "image": "img/imagesOfVideo/maxresdefault.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "THE WHALE",
+            "age": "PG",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
+            "image": "img/imagesOfVideo/whale.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "AVATAR 2",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "SUPER MARIO BROS",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
+            "image": "img/imagesOfVideo/mario.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "The Guardians Of The Galaxy Vol. 3",
+            "age": "PG-13",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
+            "image": "img/imagesOfVideo/guardians.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "The Witcher: Blood Origin",
+            "age": "18+",
+            "year": "2022",
+            "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
+            "image": "img/imagesOfVideo/witcher.jpg",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "Warriors of Future",
+            "age": "PG-13",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=yVHo6OmSpFs",
+            "image": "img/imagesOfVideo/future.jpeg",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "AVATAR 2",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "Squid Game Season 2",
+            "age": "18+",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=Bm0T0D8iQDk",
+            "image": "img/imagesOfVideo/squid-game-season-2.webp",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "The Witcher: Blood Origin",
+            "age": "18+",
+            "year": "2022",
+            "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
+            "image": "img/imagesOfVideo/witcher.jpg",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "JOHN WICK: Chapter 4",
+            "age": "18+",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
+            "image": "img/imagesOfVideo/maxresdefault.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "THE WHALE",
+            "age": "PG",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
+            "image": "img/imagesOfVideo/whale.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "AVATAR 2",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "SUPER MARIO BROS",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
+            "image": "img/imagesOfVideo/mario.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "The Guardians Of The Galaxy Vol. 3",
+            "age": "PG-13",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
+            "image": "img/imagesOfVideo/guardians.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "The Witcher: Blood Origin",
+            "age": "18+",
+            "year": "2022",
+            "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
+            "image": "img/imagesOfVideo/witcher.jpg",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "Warriors of Future",
+            "age": "PG-13",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=yVHo6OmSpFs",
+            "image": "img/imagesOfVideo/future.jpeg",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "AVATAR 2",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "Squid Game Season 2",
+            "age": "18+",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=Bm0T0D8iQDk",
+            "image": "img/imagesOfVideo/squid-game-season-2.webp",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "The Witcher: Blood Origin",
+            "age": "18+",
+            "year": "2022",
+            "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
+            "image": "img/imagesOfVideo/witcher.jpg",
+            "icon": "img/tv.svg"
+        }
+    ],
+    "movies": [
+        {
+            "title": "JOHN WICK: Chapter 4",
+            "age": "18+",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
+            "image": "img/imagesOfVideo/maxresdefault.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "THE WHALE",
+            "age": "PG",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
+            "image": "img/imagesOfVideo/whale.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "AVATAR 2",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "SUPER MARIO BROS",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
+            "image": "img/imagesOfVideo/mario.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "The Guardians Of The Galaxy Vol. 3",
+            "age": "PG-13",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
+            "image": "img/imagesOfVideo/guardians.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "JOHN WICK: Chapter 4",
+            "age": "18+",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
+            "image": "img/imagesOfVideo/maxresdefault.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "THE WHALE",
+            "age": "PG",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
+            "image": "img/imagesOfVideo/whale.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "AVATAR 2",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "SUPER MARIO BROS",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
+            "image": "img/imagesOfVideo/mario.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "The Guardians Of The Galaxy Vol. 3",
+            "age": "PG-13",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
+            "image": "img/imagesOfVideo/guardians.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "JOHN WICK: Chapter 4",
+            "age": "18+",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
+            "image": "img/imagesOfVideo/maxresdefault.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "THE WHALE",
+            "age": "PG",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
+            "image": "img/imagesOfVideo/whale.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "AVATAR 2",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "SUPER MARIO BROS",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
+            "image": "img/imagesOfVideo/mario.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "The Guardians Of The Galaxy Vol. 3",
+            "age": "PG-13",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
+            "image": "img/imagesOfVideo/guardians.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "JOHN WICK: Chapter 4",
+            "age": "18+",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
+            "image": "img/imagesOfVideo/maxresdefault.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "THE WHALE",
+            "age": "PG",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
+            "image": "img/imagesOfVideo/whale.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "AVATAR 2",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "SUPER MARIO BROS",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
+            "image": "img/imagesOfVideo/mario.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "The Guardians Of The Galaxy Vol. 3",
+            "age": "PG-13",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
+            "image": "img/imagesOfVideo/guardians.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "JOHN WICK: Chapter 4",
+            "age": "18+",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
+            "image": "img/imagesOfVideo/maxresdefault.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "THE WHALE",
+            "age": "PG",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
+            "image": "img/imagesOfVideo/whale.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "AVATAR 2",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "SUPER MARIO BROS",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
+            "image": "img/imagesOfVideo/mario.jpg",
+            "icon": "img/Movies.svg"
+        },
+        {
+            "title": "The Guardians Of The Galaxy Vol. 3",
+            "age": "PG-13",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
+            "image": "img/imagesOfVideo/guardians.jpg",
+            "icon": "img/Movies.svg"
+        }
+    ],
+    "TVseries": [
+        {
+            "title": "The Witcher: Blood Origin",
+            "age": "18+",
+            "year": "2022",
+            "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
+            "image": "img/imagesOfVideo/witcher.jpg",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "Warriors of Future",
+            "age": "PG-13",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=yVHo6OmSpFs",
+            "image": "img/imagesOfVideo/future.jpeg",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "AVATAR 2",
+            "age": "G",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
+            "image": "img/imagesOfVideo/avatar.jpg",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "Squid Game Season 2",
+            "age": "18+",
+            "year": "2023",
+            "video": "https://www.youtube.com/watch?v=Bm0T0D8iQDk",
+            "image": "img/imagesOfVideo/squid-game-season-2.webp",
+            "icon": "img/tv.svg"
+        },
+        {
+            "title": "The Witcher: Blood Origin",
+            "age": "18+",
+            "year": "2022",
+            "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
+            "image": "img/imagesOfVideo/witcher.jpg",
+            "icon": "img/tv.svg"
+        }
+    ]
 }
