@@ -154,40 +154,75 @@ h1, h2, h3, h4, h5, h6 {
 #root .content-search input::placeholder {
   opacity: 0.5;
 }
-#root .content #content-video {
+#root .content #mainContent {
   width: 100%;
   height: 100%;
 }
-#root .content #content-video .homePage .trending h1 {
+#root .content #mainContent .page-content h1 {
   color: #FFFFFF;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: -0.5px;
   margin: 34px 0 25px 0;
 }
-#root .content #content-video .homePage .trending-items {
+#root .content #mainContent .page-content h1::first-letter {
+  text-transform: uppercase;
+}
+#root .content #mainContent .page-content .items--trending {
   display: grid;
   grid-template: repeat(1, 230px)/repeat(5, 470px);
   overflow: hidden;
   column-gap: 40px;
 }
-#root .content #content-video .homePage .trending-items__item {
+#root .content #mainContent .page-content .items--trending .items-content {
+  position: relative;
+}
+#root .content #mainContent .page-content .items--trending .items-item {
+  width: 100%;
+  height: 100%;
+}
+#root .content #mainContent .page-content .items--trending .items_description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+#root .content #mainContent .page-content .items--recommended {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#root .content #mainContent .page-content .items--recommended .items-item {
+  width: 280px;
+  height: 174px;
+}
+#root .content #mainContent .page-content .items-item {
   position: relative;
   border-radius: 8px;
 }
-#root .content #content-video .homePage .trending-items__item-bookmarket {
+#root .content #mainContent .page-content .items-item__bookmarket {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 16px;
   right: 16px;
   border-radius: 50%;
   width: 32px;
   height: 32px;
-  background: #10141E;
+  background: rgba(16, 20, 30, 0.5);
   mix-blend-mode: normal;
-  opacity: 0.5;
+  cursor: pointer;
 }
-#root .content #content-video .homePage .trending-items__item-bookmarket svg {
-  opacity: 1;
+#root .content #mainContent .page-content .items-item__bookmarket:hover {
+  background-color: #FFFFFF;
+}
+#root .content #mainContent .page-content .items-item__bookmarket:hover svg {
+  fill: #FFFFFF;
+}
+#root .content #mainContent .page-content .items-item__bookmarket:hover svg path {
+  stroke: #10141E;
 }
 
 body .login .create-account, body .login .authentication .authentication-button__submit, body .login .authentication input:not(.authentication-button__submit) {
@@ -290,6 +325,7 @@ body .login .authentication .authentication-button__submit:hover {
   color: #161D2F;
 }
 body .login .create-account {
+  position: relative;
   width: 216px;
   margin: 0 auto;
 }

@@ -19,7 +19,7 @@ $red: #FC4747;
 body{
     background-color: #10141E;
     .user-authentification{
-        display: none; // yes and delete
+        display: none; // for dev
     }
     .movieIcon{
         position: absolute;
@@ -108,6 +108,7 @@ body{
             } 
         }   
         .create-account {
+            position: relative;
             width: 216px;
             margin: 0 auto;
             @extend %tplfont1;

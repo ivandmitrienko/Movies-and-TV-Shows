@@ -1,5 +1,6 @@
 #root{
-    display: block; //go no
+    display: block; // for dev
+    // display: none;
     .sidebar{
         position: fixed;
         left: 32px;
@@ -71,44 +72,81 @@
                 }
             }
         }
-        & #content-video{
+        & #mainContent{
             width: 100%;
             height: 100%;
-            & .homePage{
-                & .trending{
+            & .page{
+                &-content{
                     & h1{
                         color: #FFFFFF;
                         font-size: 32px;
                         line-height: 40px;
                         letter-spacing: -0.5px;
                         margin: 34px 0 25px 0;
+                        &::first-letter{
+                            text-transform: uppercase;
+                        }
                     }
-                    &-items{
-                        display: grid;
-                        grid-template: repeat(1, 230px) / repeat(5, 470px);
-                        overflow: hidden;
-                        column-gap: 40px;
-                        &__item{
+                    .items{
+                        &--trending{
+                            display: grid;
+                            grid-template: repeat(1, 230px) / repeat(5, 470px);
+                            overflow: hidden;
+                            column-gap: 40px;
+                            .items-content{
+                                position: relative;
+                            }
+                            .items-item{
+                                width: 100%;
+                                height: 100%;
+                            }
+                            .items_description{
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100px;
+                            }    
+                        }
+                        &--recommended{
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            .items-item{
+                                width: 280px;
+                                height: 174px;
+                            }
+                        }
+                        &-item{
                             position: relative;
                             border-radius: 8px;
-                            &-bookmarket{
+                            &__bookmarket{
                                 position: absolute;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
                                 top: 16px;
                                 right: 16px;
                                 border-radius: 50%;
                                 width: 32px;
                                 height: 32px;
-                                background: #10141E;
+                                background:rgba(16, 20, 30, 0.5);
                                 mix-blend-mode: normal;
-                                opacity: 0.5;
-                                & svg{
-                                    opacity: 1;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: #FFFFFF;
+                                }
+                                &:hover svg{
+                                  fill: #FFFFFF;
+                                  & path{
+                                      stroke: #10141E;
+                                  }
                                 }
                             }
-                        }
+                        }              
                     }
                 }
             }
         }
-    }
+    } 
 }  

@@ -1,4 +1,4 @@
-'use strict'
+import { contentOfPage } from './contentOfPage.js';
 
 const userAuthentification = document.querySelector('.user-authentification');
 const form = document.querySelector('.authentication');
@@ -30,6 +30,7 @@ signUpToAccount.addEventListener('click', () => {
 });
 
 form.addEventListener('submit', (EO) => {
+    EO.preventDefault();
     if (signUpToAccount.innerHTML === 'Sign Up') {
         return alert('You need to create account!');
     }
@@ -47,10 +48,15 @@ form.addEventListener('submit', (EO) => {
     }
     if (arrFocus.length) {
         arrFocus[0].focus();
-        EO.preventDefault();
     } else {
         userAuthentification.style.display = 'none';
         root.style.display = 'block';
+        history.pushState(
+            {firstKey: 'trending'},
+            '',
+            'home'
+        )
+        contentOfPage();
     }
 })
 
