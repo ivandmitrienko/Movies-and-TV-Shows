@@ -9,6 +9,26 @@
         height: 890px;
         background: #161D2F;
         border-radius: 20px;
+        &-icon-user{
+            position: absolute;
+            bottom: 5%;
+            left: calc(50% - 60px/2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid gray;
+            &:hover{
+                border-color: #FC4747;
+                cursor: pointer;
+            }
+            & svg{
+                width: 40px;
+                height: 40px;
+            }
+        }
         &-items{
             .movieIcon{
                 top: 40.41px;

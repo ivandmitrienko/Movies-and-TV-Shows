@@ -93,6 +93,26 @@ h1, h2, h3, h4, h5, h6 {
   background: #161D2F;
   border-radius: 20px;
 }
+#root .sidebar-icon-user {
+  position: absolute;
+  bottom: 5%;
+  left: calc(50% - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+#root .sidebar-icon-user:hover {
+  border-color: #FC4747;
+  cursor: pointer;
+}
+#root .sidebar-icon-user svg {
+  width: 40px;
+  height: 40px;
+}
 #root .sidebar-items .movieIcon {
   top: 40.41px;
 }
