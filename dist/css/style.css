@@ -182,30 +182,42 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 #root .content #mainContent .page-content .items--trending .items-description {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100px;
+  color: #FFFFFF;
 }
 #root .content #mainContent .page-content .items--trending .items-description__yearCategoryAge {
-  width: 150px;
+  display: flex;
+  justify-content: space-between;
   height: 19px;
-  color: #FFFFFF;
   opacity: 0.75;
   font-size: 15px;
   mix-blend-mode: normal;
+  width: 150px;
 }
-#root .content #mainContent .page-content .items--trending .items-description__yearCategoryAge div {
+#root .content #mainContent .page-content .items--trending .items-description__yearCategoryAge span {
   height: 100%;
+  display: flex;
+  align-items: center;
 }
-#root .content #mainContent .page-content .items--trending .items-description__yearCategoryAge .iconAndCategory {
-  position: relative;
-  height: 100%;
-  width: 59px;
+#root .content #mainContent .page-content .items--trending .items-description__yearCategoryAge img {
+  position: inherit;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
 }
-#root .content #mainContent .page-content .items--trending .items-description__yearCategoryAge .iconAndCategory img {
-  height: 100%;
+#root .content #mainContent .page-content .items--trending .items-description__title {
+  width: 150px;
+  font-weight: bolder;
+  font-size: 24px;
 }
 #root .content #mainContent .page-content .items--recommended {
   display: flex;
