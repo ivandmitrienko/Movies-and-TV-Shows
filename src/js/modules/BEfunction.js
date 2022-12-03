@@ -29,14 +29,13 @@ export function BEfunction(keyBE, titleBE, page_content) {
             let yearCategoryAge = document.createElement('div');
             yearCategoryAge.className = 'items-description__yearCategoryAge';
             items_description.appendChild(yearCategoryAge);
-            let year = document.createElement('div')
-            year.innerHTML = i.year;
-            let icon = document.createElement('div');
-            icon.className = 'iconAndCategory';
-            icon.innerHTML = ` <img src=${i.icon} alt=""> + `;
-
-            yearCategoryAge.appendChild(year);
-            yearCategoryAge.appendChild(icon);
+            yearCategoryAge.innerHTML = `<span>${i.year}</span> 
+            <span>&middot</span> <span><img src=${i.icon} alt="">${i.category}</span> <span>&middot</span> 
+            <span>${i.age}</span>`;
+            let items_description_title = document.createElement('div');
+            items_description_title.className = 'items-description__title';
+            items_description_title.innerHTML = `<span>${i.title}</span>`;
+            items_description.appendChild( items_description_title);
             items_content.appendChild(items_description);
             return items.appendChild(items_content);  // for dev
         })
