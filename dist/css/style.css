@@ -223,10 +223,38 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  color: #FFFFFF;
+}
+#root .content #mainContent .page-content .items--recommended .items-content {
+  position: relative;
+  width: 280px;
+  height: 226px;
+  margin-bottom: 32px;
 }
 #root .content #mainContent .page-content .items--recommended .items-item {
   width: 280px;
   height: 174px;
+}
+#root .content #mainContent .page-content .items--recommended .items-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 8px;
+  width: 100%;
+  height: 44px;
+}
+#root .content #mainContent .page-content .items--recommended .items-description__yearCategoryAge {
+  height: 16px;
+}
+#root .content #mainContent .page-content .items--recommended .items-description__yearCategoryAge img {
+  position: inherit;
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+}
+#root .content #mainContent .page-content .items--recommended .items-description__title {
+  font-size: 17px;
+  font-weight: bolder;
 }
 #root .content #mainContent .page-content .items-item {
   position: relative;
