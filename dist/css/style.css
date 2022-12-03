@@ -181,12 +181,31 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
 }
-#root .content #mainContent .page-content .items--trending .items_description {
+#root .content #mainContent .page-content .items--trending .items-description {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100px;
+}
+#root .content #mainContent .page-content .items--trending .items-description__yearCategoryAge {
+  width: 150px;
+  height: 19px;
+  color: #FFFFFF;
+  opacity: 0.75;
+  font-size: 15px;
+  mix-blend-mode: normal;
+}
+#root .content #mainContent .page-content .items--trending .items-description__yearCategoryAge div {
+  height: 100%;
+}
+#root .content #mainContent .page-content .items--trending .items-description__yearCategoryAge .iconAndCategory {
+  position: relative;
+  height: 100%;
+  width: 59px;
+}
+#root .content #mainContent .page-content .items--trending .items-description__yearCategoryAge .iconAndCategory img {
+  height: 100%;
 }
 #root .content #mainContent .page-content .items--recommended {
   display: flex;

@@ -25,10 +25,18 @@ export function BEfunction(keyBE, titleBE, page_content) {
             item.appendChild(itemBookmark);
             items_content.appendChild(item);
             let items_description = document.createElement('div');
-            items_description.className = 'items_description';
-            
+            items_description.className = 'items-description';
+            let yearCategoryAge = document.createElement('div');
+            yearCategoryAge.className = 'items-description__yearCategoryAge';
+            items_description.appendChild(yearCategoryAge);
+            let year = document.createElement('div')
+            year.innerHTML = i.year;
+            let icon = document.createElement('div');
+            icon.className = 'iconAndCategory';
+            icon.innerHTML = ` <img src=${i.icon} alt=""> + `;
 
-
+            yearCategoryAge.appendChild(year);
+            yearCategoryAge.appendChild(icon);
             items_content.appendChild(items_description);
             return items.appendChild(items_content);  // for dev
         })

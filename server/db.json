@@ -6,7 +6,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
             "image": "img/imagesOfVideo/maxresdefault.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "THE WHALE",
@@ -14,7 +15,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
             "image": "img/imagesOfVideo/whale.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "AVATAR 2",
@@ -22,7 +24,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "SUPER MARIO BROS",
@@ -30,7 +33,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
             "image": "img/imagesOfVideo/mario.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "The Guardians Of The Galaxy Vol. 3",
@@ -38,7 +42,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
             "image": "img/imagesOfVideo/guardians.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         }
     ],
     "recommended": [
@@ -48,7 +53,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
             "image": "img/imagesOfVideo/maxresdefault.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "THE WHALE",
@@ -56,7 +62,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
             "image": "img/imagesOfVideo/whale.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "AVATAR 2",
@@ -64,7 +71,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "SUPER MARIO BROS",
@@ -72,7 +80,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
             "image": "img/imagesOfVideo/mario.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "The Guardians Of The Galaxy Vol. 3",
@@ -80,7 +89,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
             "image": "img/imagesOfVideo/guardians.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "The Witcher: Blood Origin",
@@ -88,7 +98,8 @@
             "year": "2022",
             "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
             "image": "img/imagesOfVideo/witcher.jpg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "Warriors of Future",
@@ -96,7 +107,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=yVHo6OmSpFs",
             "image": "img/imagesOfVideo/future.jpeg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "AVATAR 2",
@@ -104,7 +116,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "Squid Game Season 2",
@@ -112,7 +125,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=Bm0T0D8iQDk",
             "image": "img/imagesOfVideo/squid-game-season-2.webp",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "The Witcher: Blood Origin",
@@ -120,7 +134,8 @@
             "year": "2022",
             "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
             "image": "img/imagesOfVideo/witcher.jpg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "JOHN WICK: Chapter 4",
@@ -128,7 +143,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
             "image": "img/imagesOfVideo/maxresdefault.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "THE WHALE",
@@ -136,7 +152,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
             "image": "img/imagesOfVideo/whale.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "AVATAR 2",
@@ -144,7 +161,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "SUPER MARIO BROS",
@@ -152,7 +170,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
             "image": "img/imagesOfVideo/mario.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "The Guardians Of The Galaxy Vol. 3",
@@ -160,7 +179,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
             "image": "img/imagesOfVideo/guardians.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "The Witcher: Blood Origin",
@@ -168,7 +188,8 @@
             "year": "2022",
             "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
             "image": "img/imagesOfVideo/witcher.jpg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "Warriors of Future",
@@ -176,7 +197,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=yVHo6OmSpFs",
             "image": "img/imagesOfVideo/future.jpeg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "AVATAR 2",
@@ -184,7 +206,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "Movie"
         },
         {
             "title": "Squid Game Season 2",
@@ -192,7 +215,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=Bm0T0D8iQDk",
             "image": "img/imagesOfVideo/squid-game-season-2.webp",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "The Witcher: Blood Origin",
@@ -200,7 +224,8 @@
             "year": "2022",
             "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
             "image": "img/imagesOfVideo/witcher.jpg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         }
     ],
     "movies": [
@@ -210,7 +235,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
             "image": "img/imagesOfVideo/maxresdefault.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "THE WHALE",
@@ -218,7 +244,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
             "image": "img/imagesOfVideo/whale.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "AVATAR 2",
@@ -226,7 +253,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "SUPER MARIO BROS",
@@ -234,7 +262,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
             "image": "img/imagesOfVideo/mario.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "The Guardians Of The Galaxy Vol. 3",
@@ -242,7 +271,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
             "image": "img/imagesOfVideo/guardians.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "JOHN WICK: Chapter 4",
@@ -250,7 +280,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
             "image": "img/imagesOfVideo/maxresdefault.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "THE WHALE",
@@ -258,7 +289,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
             "image": "img/imagesOfVideo/whale.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "AVATAR 2",
@@ -266,7 +298,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "SUPER MARIO BROS",
@@ -274,7 +307,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
             "image": "img/imagesOfVideo/mario.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "The Guardians Of The Galaxy Vol. 3",
@@ -282,7 +316,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
             "image": "img/imagesOfVideo/guardians.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "JOHN WICK: Chapter 4",
@@ -290,7 +325,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
             "image": "img/imagesOfVideo/maxresdefault.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "THE WHALE",
@@ -298,7 +334,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
             "image": "img/imagesOfVideo/whale.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "AVATAR 2",
@@ -306,7 +343,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "SUPER MARIO BROS",
@@ -314,7 +352,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
             "image": "img/imagesOfVideo/mario.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "The Guardians Of The Galaxy Vol. 3",
@@ -322,7 +361,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
             "image": "img/imagesOfVideo/guardians.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "JOHN WICK: Chapter 4",
@@ -330,7 +370,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
             "image": "img/imagesOfVideo/maxresdefault.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "THE WHALE",
@@ -338,7 +379,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
             "image": "img/imagesOfVideo/whale.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "AVATAR 2",
@@ -346,7 +388,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "SUPER MARIO BROS",
@@ -354,7 +397,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
             "image": "img/imagesOfVideo/mario.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "The Guardians Of The Galaxy Vol. 3",
@@ -362,7 +406,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
             "image": "img/imagesOfVideo/guardians.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "JOHN WICK: Chapter 4",
@@ -370,7 +415,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
             "image": "img/imagesOfVideo/maxresdefault.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "THE WHALE",
@@ -378,7 +424,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=uva54E_3Ndo",
             "image": "img/imagesOfVideo/whale.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "AVATAR 2",
@@ -386,7 +433,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "SUPER MARIO BROS",
@@ -394,7 +442,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=6sLXK6aNtM8",
             "image": "img/imagesOfVideo/mario.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         },
         {
             "title": "The Guardians Of The Galaxy Vol. 3",
@@ -402,7 +451,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=BS1kaQPZ7Kk",
             "image": "img/imagesOfVideo/guardians.jpg",
-            "icon": "img/Movies.svg"
+            "icon": "img/Movies.svg",
+            "category": "Movie"
         }
     ],
     "TVseries": [
@@ -412,7 +462,8 @@
             "year": "2022",
             "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
             "image": "img/imagesOfVideo/witcher.jpg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "Warriors of Future",
@@ -420,7 +471,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=yVHo6OmSpFs",
             "image": "img/imagesOfVideo/future.jpeg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "AVATAR 2",
@@ -428,7 +480,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=nEv--vAmvUo",
             "image": "img/imagesOfVideo/avatar.jpg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "Squid Game Season 2",
@@ -436,7 +489,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=Bm0T0D8iQDk",
             "image": "img/imagesOfVideo/squid-game-season-2.webp",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         },
         {
             "title": "The Witcher: Blood Origin",
@@ -444,7 +498,8 @@
             "year": "2022",
             "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
             "image": "img/imagesOfVideo/witcher.jpg",
-            "icon": "img/tv.svg"
+            "icon": "img/tv.svg",
+            "category": "TV Series"
         }
     ]
 }
