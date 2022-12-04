@@ -275,7 +275,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #root .content #mainContent .page-content .items--recommended .items-description__title, #root .content #mainContent .page-content .items--movies .items-description__title, #root .content #mainContent .page-content .items--TVseries .items-description__title {
   font-size: 17px;
-  font-weight: bolder;
+  font-weight: 500;
 }
 #root .content #mainContent .page-content .items-item {
   position: relative;
