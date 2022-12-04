@@ -1,5 +1,6 @@
 "use strict"
 
+import { svgFunc } from './svgIconFunctions.js';
 import { BEfunction } from "./BEfunction.js";
 
 export function contentOfPage() { 
@@ -22,7 +23,8 @@ export function contentOfPage() {
     };
     
     if (allContentBE) {
-        BEfunction(allContentBE, titleContentBE, page_content)
+        BEfunction(allContentBE, titleContentBE, page_content);
+        svgFunc();
     };
 
     return mainContent;

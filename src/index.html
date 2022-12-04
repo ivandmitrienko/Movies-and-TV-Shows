@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css">
-    <base href="/">
-    <title>Shop</title>
-</head>
-<body>
-    <div class="user-authentification">
-        @@include('./html/movieIcon.html')
-        <div class="login">
-            <h1>Login</h1>
-            <form class="authentication">
-                <div class="authentication-email">
-                    <span class="error errorInSpan emailSpan"></span>
-                    <input placeholder="Email address" type="email" class="field">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.min.css">
+        <base href="/">
+        <title>Shop</title>
+    </head>
+    <body>
+        <div class="user-authentification">
+            <template>
+                @@include('./html/movieIcon.html')
+                <div class="login">
+                    <h1>Login</h1>
+                    <form class="authentication">
+                        <div class="authentication-email">
+                            <span class="error errorInSpan emailSpan"></span>
+                            <input placeholder="Email address" type="email" class="field">
+                        </div>
+                        <div class="authentication-password-first">
+                            <span class="error errorInSpan firstPasswordSpan"></span>
+                            <input id="userPassword" placeholder="Password" type="password" class="field">
+                        </div>
+                        <div class="authentication-password-second">
+                            <span class="error errorInSpan secondPasswordSpan"></span>
+                            <input placeholder="Repeat password" type="password" class="field">
+                        </div>
+                        <div class="authentication-button">
+                            <input type="submit" value="Login to your account" class="authentication-button__submit">
+                        </div>
+                    </form>
+                    <div class="create-account">
+                        <span class="create-account__question">Don’t have an account?</span>
+                        <span class="create-account__sign-up">Sign Up</span>
+                    </div>
                 </div>
-                <div class="authentication-password-first">
-                    <span class="error errorInSpan firstPasswordSpan"></span>
-                    <input id="userPassword" placeholder="Password" type="password" class="field">
-                </div>
-                <div class="authentication-password-second">
-                    <span class="error errorInSpan secondPasswordSpan"></span>
-                    <input placeholder="Repeat password" type="password" class="field">
-                </div>
-                <div class="authentication-button">
-                    <input type="submit" value="Login to your account" class="authentication-button__submit">
-                </div>
-            </form>
-            <div class="create-account">
-                <span class="create-account__question">Don’t have an account?</span>
-                <span class="create-account__sign-up">Sign Up</span>
-            </div>
+            </template>
         </div>
-    </div>
-    @@include('./html/root.html')
-        <script src="js/app.min.js"></script> 
-
-</body>
-
+        @@include('./html/root.html')
+        <script src="js/app.min.js"></script>
+    </body>
 </html>
