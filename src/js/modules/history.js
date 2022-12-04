@@ -2,7 +2,7 @@
 
 import { contentOfPage } from './contentOfPage.js';
 
-export const newPage = (firstKey, secondKey, secondKeyTitle) => {
+export const newPage = (firstKey, secondKey, secondKeyTitle, UrlPage) => {
     history.pushState(
         {
             firstKey,
@@ -11,7 +11,7 @@ export const newPage = (firstKey, secondKey, secondKeyTitle) => {
 
         },
         '',
-        'movies'
+        UrlPage
     );
     contentOfPage();
 }
