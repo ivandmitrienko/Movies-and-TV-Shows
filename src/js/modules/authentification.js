@@ -1,4 +1,5 @@
 import { contentOfPage } from './contentOfPage.js';
+import { svgFunc } from './svgIconFunctions.js';
 
 const userAuthentification = document.querySelector('.user-authentification');
 const form = document.querySelector('.authentication');
@@ -52,11 +53,17 @@ form.addEventListener('submit', (EO) => {
         userAuthentification.style.display = 'none';
         root.style.display = 'block';
         history.pushState(
-            {firstKey: 'trending'},
+            {
+                firstKey: "trending",
+                secondKey: "recommended",
+                secondKeyTitle: "recommended for you"
+
+            },
             '',
             'home'
         )
         contentOfPage();
+        svgFunc();
     }
 })
 
