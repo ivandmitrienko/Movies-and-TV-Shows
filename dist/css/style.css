@@ -239,23 +239,23 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bolder;
   font-size: 24px;
 }
-#root .content #mainContent .page-content .items--recommended, #root .content #mainContent .page-content .items--movies {
+#root .content #mainContent .page-content .items--recommended, #root .content #mainContent .page-content .items--movies, #root .content #mainContent .page-content .items--TVseries {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   color: #FFFFFF;
 }
-#root .content #mainContent .page-content .items--recommended .items-content, #root .content #mainContent .page-content .items--movies .items-content {
+#root .content #mainContent .page-content .items--recommended .items-content, #root .content #mainContent .page-content .items--movies .items-content, #root .content #mainContent .page-content .items--TVseries .items-content {
   position: relative;
   width: 280px;
   height: 226px;
   margin-bottom: 32px;
 }
-#root .content #mainContent .page-content .items--recommended .items-item, #root .content #mainContent .page-content .items--movies .items-item {
+#root .content #mainContent .page-content .items--recommended .items-item, #root .content #mainContent .page-content .items--movies .items-item, #root .content #mainContent .page-content .items--TVseries .items-item {
   width: 280px;
   height: 174px;
 }
-#root .content #mainContent .page-content .items--recommended .items-description, #root .content #mainContent .page-content .items--movies .items-description {
+#root .content #mainContent .page-content .items--recommended .items-description, #root .content #mainContent .page-content .items--movies .items-description, #root .content #mainContent .page-content .items--TVseries .items-description {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -263,16 +263,17 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 44px;
 }
-#root .content #mainContent .page-content .items--recommended .items-description__yearCategoryAge, #root .content #mainContent .page-content .items--movies .items-description__yearCategoryAge {
+#root .content #mainContent .page-content .items--recommended .items-description__yearCategoryAge, #root .content #mainContent .page-content .items--movies .items-description__yearCategoryAge, #root .content #mainContent .page-content .items--TVseries .items-description__yearCategoryAge {
+  opacity: 0.75;
   height: 16px;
 }
-#root .content #mainContent .page-content .items--recommended .items-description__yearCategoryAge img, #root .content #mainContent .page-content .items--movies .items-description__yearCategoryAge img {
+#root .content #mainContent .page-content .items--recommended .items-description__yearCategoryAge img, #root .content #mainContent .page-content .items--movies .items-description__yearCategoryAge img, #root .content #mainContent .page-content .items--TVseries .items-description__yearCategoryAge img {
   position: inherit;
   width: 12px;
   height: 12px;
   margin-right: 3px;
 }
-#root .content #mainContent .page-content .items--recommended .items-description__title, #root .content #mainContent .page-content .items--movies .items-description__title {
+#root .content #mainContent .page-content .items--recommended .items-description__title, #root .content #mainContent .page-content .items--movies .items-description__title, #root .content #mainContent .page-content .items--TVseries .items-description__title {
   font-size: 17px;
   font-weight: bolder;
 }

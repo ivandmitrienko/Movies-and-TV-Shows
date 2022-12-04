@@ -158,7 +158,7 @@
                                 }
                             }    
                         }
-                        &--recommended, &--movies{
+                        &--recommended, &--movies, &--TVseries{
                             display: flex;
                             flex-wrap: wrap;
                             justify-content: space-between;
@@ -181,6 +181,7 @@
                                 width: 100%;
                                 height: 44px;
                                 &__yearCategoryAge{
+                                    opacity: 0.75;
                                     height: 16px;
                                     img{
                                         position: inherit;
