@@ -204,7 +204,7 @@
                         &-item{
                             position: relative;
                             border-radius: 8px;
-                            &__bookmarket{
+                            &__bookmarked{
                                 position: absolute;
                                 display: flex;
                                 justify-content: center;
@@ -217,10 +217,10 @@
                                 background:rgba(16, 20, 30, 0.5);
                                 mix-blend-mode: normal;
                                 cursor: pointer;
-                                &:hover{
+                                &--active, &:hover{
                                     background-color: #FFFFFF;
                                 }
-                                &:hover svg{
+                                &--active svg, &:hover svg{
                                   fill: #FFFFFF;
                                   & path{
                                       stroke: #10141E;

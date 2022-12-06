@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   border-radius: 8px;
 }
-#root .content #mainContent .page-content .items-item__bookmarket {
+#root .content #mainContent .page-content .items-item__bookmarked {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -306,13 +306,13 @@ h1, h2, h3, h4, h5, h6 {
   mix-blend-mode: normal;
   cursor: pointer;
 }
-#root .content #mainContent .page-content .items-item__bookmarket:hover {
+#root .content #mainContent .page-content .items-item__bookmarked--active, #root .content #mainContent .page-content .items-item__bookmarked:hover {
   background-color: #FFFFFF;
 }
-#root .content #mainContent .page-content .items-item__bookmarket:hover svg {
+#root .content #mainContent .page-content .items-item__bookmarked--active svg, #root .content #mainContent .page-content .items-item__bookmarked:hover svg {
   fill: #FFFFFF;
 }
-#root .content #mainContent .page-content .items-item__bookmarket:hover svg path {
+#root .content #mainContent .page-content .items-item__bookmarked--active svg path, #root .content #mainContent .page-content .items-item__bookmarked:hover svg path {
   stroke: #10141E;
 }
 
