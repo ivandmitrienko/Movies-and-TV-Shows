@@ -4,10 +4,14 @@ import { svgFunc } from './svgIconFunctions.js';
 import { BEfunction } from "./BEfunction.js";
 
 export function contentOfPage() { 
-    const keyBE = history.state.firstKey;
-    const titleBE = keyBE;
-    const allContentBE = history.state.secondKey; 
-    const titleContentBE = history.state.secondKeyTitle; 
+    // const keyBE = history.state.firstKey;
+    // const titleBE = keyBE;
+    const keyBE = "trending";
+    const titleBE = "trending";
+    // const allContentBE = history.state.secondKey; 
+    const allContentBE = "recommended"; 
+    // const titleContentBE = history.state.secondKeyTitle;
+    const titleContentBE =  "recommended for you"; 
     const mainContent = document.getElementById('mainContent');
     mainContent.innerHTML = '';
     const page = document.createElement('div');
@@ -29,3 +33,5 @@ export function contentOfPage() {
 
     return mainContent;
 }
+
+contentOfPage();

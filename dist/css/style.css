@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 #root {
-  display: none;
+  display: block;
 }
 #root .sidebar {
   position: fixed;
@@ -328,6 +328,9 @@ body .login .create-account, body .login .authentication .authentication-button_
 
 body {
   background-color: #10141E;
+}
+body .user-authentification {
+  display: none;
 }
 body .movieIcon {
   position: absolute;

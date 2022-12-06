@@ -18,6 +18,9 @@ $red: #FC4747;
 
 body{
     background-color: #10141E;
+    .user-authentification{
+        display: none; //for dev
+    }
     .movieIcon{
         position: absolute;
         width: 32px;
