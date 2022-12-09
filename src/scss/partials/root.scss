@@ -161,10 +161,9 @@
                                 }
                             }    
                         }
-                        &--recommended, &--movies, &--TVseries{
+                        &--recommended, &--movies, &--TVseries, &--bookmarked{
                             display: flex;
                             flex-wrap: wrap;
-                            justify-content: space-between;
                             color: #FFFFFF;
                             .items-content{
                                 position: relative;
@@ -201,6 +200,12 @@
                                 }
                             }
                         }
+                        &--recommended, &--movies, &--TVseries {
+                            justify-content: space-between;
+                        }
+                        &--bookmarked .items-content:not(:nth-child(5n+5)){
+                            margin-right: 40px;
+                        }
                         &-item{
                             position: relative;
                             border-radius: 8px;
@@ -227,7 +232,7 @@
                                   }
                                 }
                             }
-                        }              
+                        }           
                     }
                 }
             }
