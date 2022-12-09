@@ -20,11 +20,8 @@ export function showBookmarkedItems (){
         for(let i=0; i<arrOfBookmarkedItems.length; i++){
             arrOfItems.push(JSON.parse(arrOfBookmarkedItems[i]));
         }
-        showItemsBE(arrOfItems, items);
-        
-        // for(let i=0; i<arrOfItems.length; i++){
-        //     console.log(JSON.parse(arrOfItems[i]));
-        // }
+        const arrOfItemsForCategory = arrOfItems.filter((i)=>i.category === "Movie");
+        showItemsBE(arrOfItemsForCategory, items);
 
     })
 }
