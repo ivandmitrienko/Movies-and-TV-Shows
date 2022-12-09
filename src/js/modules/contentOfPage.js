@@ -21,6 +21,9 @@ export function contentOfPage() {
     const page_content = document.createElement('div');
     page_content.className = 'page-content';
     page.appendChild(page_content); 
+
+
+    
     svgFunc(); // in authentification
     showBookmarkedItems(); // in authentification
 
