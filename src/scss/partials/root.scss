@@ -161,7 +161,7 @@
                                 }
                             }    
                         }
-                        &--recommended, &--movies, &--TVseries, &--bookmarked{
+                        &--recommended, &--movies, &--TVseries, &--bookmarked, &--searched{
                             display: flex;
                             flex-wrap: wrap;
                             color: #FFFFFF;
@@ -203,7 +203,7 @@
                         &--recommended, &--movies, &--TVseries {
                             justify-content: space-between;
                         }
-                        &--bookmarked .items-content:not(:nth-child(5n+5)){
+                        &--bookmarked .items-content:not(:nth-child(5n+5)), &--searched .items-content:not(:nth-child(5n+5)){
                             margin-right: 40px;
                         }
                         &-item{

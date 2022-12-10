@@ -6,8 +6,8 @@
             "year": "2023",
             "video": "https://www.youtube.com/watch?v=AHKqjsO_F5U",
             "image": "img/imagesOfVideo/maxresdefault.jpg",
-            "icon": "icategorymg/Movies.svg",
-            "": "Movie",
+            "icon": "img/Movies.svg",
+            "category": "Movie",
             "id": 1
         },
         {

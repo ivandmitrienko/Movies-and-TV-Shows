@@ -3,6 +3,7 @@
 import { svgFunc } from './svgIconFunctions.js';
 import { BEfunction } from "./BEfunction.js";
 import { showBookmarkedItems } from './showBookmarkedItems.js';
+import search from "./search.js";
 
 export function contentOfPage() { 
     // const keyBE = history.state.firstKey;
