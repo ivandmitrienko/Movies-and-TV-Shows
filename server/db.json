@@ -58,7 +58,7 @@
             "image": "img/imagesOfVideo/witcher.jpg",
             "icon": "img/tv.svg",
             "category": "TV Series",
-            "id": 11
+            "id": 66
         },
         {
             "title": "Warriors of Future",
@@ -68,7 +68,7 @@
             "image": "img/imagesOfVideo/future.jpeg",
             "icon": "img/tv.svg",
             "category": "TV Series",
-            "id": 12
+            "id": 67
         },
         {
             "title": "Squid Game Season 2",
@@ -78,7 +78,7 @@
             "image": "img/imagesOfVideo/squid-game-season-2.webp",
             "icon": "img/tv.svg",
             "category": "TV Series",
-            "id": 14
+            "id": 68
         }
     ],
     "recommended": [
