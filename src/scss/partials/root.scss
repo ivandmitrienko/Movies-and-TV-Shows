@@ -110,7 +110,7 @@
                     .items{
                         &--trending{
                             display: grid;
-                            grid-template: repeat(1, 230px) / repeat(5, 470px);
+                            grid-template: repeat(1, 230px) / repeat(8, 470px);
                             overflow: hidden;
                             column-gap: 40px;
                             .items-content{

@@ -49,36 +49,6 @@
             "icon": "img/Movies.svg",
             "category": "Movie",
             "id": 5
-        },
-        {
-            "title": "The Witcher: Blood Origin",
-            "age": "18+",
-            "year": "2022",
-            "video": "https://www.youtube.com/watch?v=ry6HYg3AsHA",
-            "image": "img/imagesOfVideo/witcher.jpg",
-            "icon": "img/tv.svg",
-            "category": "TV Series",
-            "id": 66
-        },
-        {
-            "title": "Warriors of Future",
-            "age": "PG-13",
-            "year": "2023",
-            "video": "https://www.youtube.com/watch?v=yVHo6OmSpFs",
-            "image": "img/imagesOfVideo/future.jpeg",
-            "icon": "img/tv.svg",
-            "category": "TV Series",
-            "id": 67
-        },
-        {
-            "title": "Squid Game Season 2",
-            "age": "18+",
-            "year": "2023",
-            "video": "https://www.youtube.com/watch?v=Bm0T0D8iQDk",
-            "image": "img/imagesOfVideo/squid-game-season-2.webp",
-            "icon": "img/tv.svg",
-            "category": "TV Series",
-            "id": 68
         }
     ],
     "recommended": [

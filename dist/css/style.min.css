@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #root .content #mainContent .page-content .items--trending {
   display: grid;
-  grid-template: repeat(1, 230px)/repeat(5, 470px);
+  grid-template: repeat(1, 230px)/repeat(8, 470px);
   overflow: hidden;
   column-gap: 40px;
 }
