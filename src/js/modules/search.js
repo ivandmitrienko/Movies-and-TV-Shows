@@ -23,7 +23,7 @@ searcher.addEventListener("keydown", (EO) => {
         getItemsBE();
 
         function f(data, searcherValue, title, items){
-            title.innerText = `Found ${data.length} results for \‘${searcherValue}\’`;
+            title.innerText = data.length?`Found ${data.length} results for \‘${searcherValue}\’`:"Not results";
                 showItemsBE(data, items);
         }  
     }  

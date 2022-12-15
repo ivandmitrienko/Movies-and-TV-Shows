@@ -195,6 +195,21 @@ h1, h2, h3, h4, h5, h6 {
 #root .content #mainContent .page-content h1::first-letter {
   text-transform: uppercase;
 }
+#root .content #mainContent .page-content .items {
+  position: relative;
+}
+#root .content #mainContent .page-content .items-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 117px;
+  height: 48px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border-radius: 28.5px;
+}
 #root .content #mainContent .page-content .items--trending {
   display: grid;
   grid-template: repeat(1, 230px)/repeat(8, 470px);
@@ -203,6 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #root .content #mainContent .page-content .items--trending .items-content {
   position: relative;
+  cursor: pointer;
 }
 #root .content #mainContent .page-content .items--trending .items-item {
   width: 100%;
@@ -255,6 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #root .content #mainContent .page-content .items--recommended .items-content, #root .content #mainContent .page-content .items--movies .items-content, #root .content #mainContent .page-content .items--TVseries .items-content, #root .content #mainContent .page-content .items--bookmarked .items-content, #root .content #mainContent .page-content .items--searched .items-content {
   position: relative;
+  cursor: pointer;
   width: 280px;
   height: 226px;
   margin-bottom: 32px;

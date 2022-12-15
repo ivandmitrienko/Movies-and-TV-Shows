@@ -108,6 +108,19 @@
                         }
                     }
                     .items{
+                        position: relative;
+                        &-video{
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%,-50%);
+                            width: 117px;
+                            height: 48px;
+                            background: #FFFFFF;
+                            mix-blend-mode: normal;
+                            opacity: 0.25;
+                            border-radius: 28.5px;
+                        }
                         &--trending{
                             display: grid;
                             grid-template: repeat(1, 230px) / repeat(8, 470px);
@@ -115,6 +128,7 @@
                             column-gap: 40px;
                             .items-content{
                                 position: relative;
+                                cursor: pointer;
                             }
                             .items-item{
                                 width: 100%;
@@ -167,6 +181,7 @@
                             color: #FFFFFF;
                             .items-content{
                                 position: relative;
+                                cursor: pointer;
                                 width: 280px;
                                 height: 226px;
                                 margin-bottom: 32px;
