@@ -116,10 +116,20 @@
                             transform: translate(-50%,-50%);
                             width: 117px;
                             height: 48px;
-                            background: #FFFFFF;
+                            background: rgba(255,255,255,0.25);
                             mix-blend-mode: normal;
-                            opacity: 0.25;
                             border-radius: 28.5px;
+                            color: #FFFFFF;
+                            text-align: end;
+                            font-size: 18px;
+                            font-family: "Outfit-Medium";
+                            font-weight: bold;
+                            padding: 13px 24px 0 0;
+                            & svg{
+                                position: absolute;
+                                top: 9px;
+                                left: 9px;
+                            }
                         }
                         &--trending{
                             display: grid;

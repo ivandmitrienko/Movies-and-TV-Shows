@@ -2,7 +2,7 @@
 
 import { itemBookmarked } from "./itemBookmarked.js";
 import { showIconOfPlayer } from "./showIconOfPlayer.js";
-// import { closeIconOfPlayer } from "./closeIconOfPlayer.js";
+import { closeIconOfPlayer } from "./closeIconOfPlayer.js";
 
 export function showItemsBE(result, items) {
     
@@ -11,9 +11,9 @@ export function showItemsBE(result, items) {
         items_content.addEventListener('mouseenter', (EO)=>{
             showIconOfPlayer(EO);
         })
-        // items_content.addEventListener('mouseleave', (EO)=>{
-        //     closeIconOfPlayer(EO);
-        // })
+        items_content.addEventListener('mouseleave', (EO)=>{
+            closeIconOfPlayer(EO);
+        })
         items_content.className = 'items-content';
         let item = document.createElement('div');
         item.className = 'items-item';
