@@ -156,7 +156,22 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 2px solid yellow;
+  border: 3px solid rgb(75, 95, 131);
+}
+#root .content-video__closer {
+  text-align: center;
+  padding-top: 7px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  background-color: #FFFFFF;
+  color: #000;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
 }
 #root .content-video iframe {
   width: 100%;
@@ -230,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 14px 24px 0 0;
 }
 #root .content #mainContent .page-content .items-video:hover {
-  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 2px 5px 6px rgba(255, 255, 255, 0.5);
 }
 #root .content #mainContent .page-content .items-video svg {
   position: absolute;
@@ -238,10 +253,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 9px;
 }
 #root .content #mainContent .page-content .items--trending {
+  padding: 0 40px;
   display: grid;
   grid-template: repeat(1, 230px)/repeat(8, 470px);
   overflow: hidden;
-  column-gap: 40px;
+  column-gap: 45px;
 }
 #root .content #mainContent .page-content .items--trending .items-content {
   position: relative;
