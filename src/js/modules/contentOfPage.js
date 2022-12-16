@@ -30,7 +30,7 @@ export function contentOfPage() {
 
 
     if (keyBE) {
-        BEfunction(keyBE, titleBE, page_content)
+        BEfunction(keyBE, titleBE, page_content);
     };
     
     if (allContentBE) {

@@ -226,6 +226,20 @@ h1, h2, h3, h4, h5, h6 {
 #root .content #mainContent .page-content .items {
   position: relative;
 }
+#root .content #mainContent .page-content .items__nextButton, #root .content #mainContent .page-content .items__prevButton {
+  z-index: 1;
+  position: absolute;
+  right: 5px;
+  top: calc(50% - 28px);
+  cursor: pointer;
+}
+#root .content #mainContent .page-content .items__nextButton svg:hover *, #root .content #mainContent .page-content .items__prevButton svg:hover * {
+  fill: rgb(186, 195, 214);
+}
+#root .content #mainContent .page-content .items__prevButton {
+  right: 95.8%;
+  transform: rotate(-180deg);
+}
 #root .content #mainContent .page-content .items-video {
   display: none;
   position: absolute;

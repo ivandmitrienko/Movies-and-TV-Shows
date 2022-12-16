@@ -137,6 +137,20 @@
                     }
                     .items{
                         position: relative;
+                        &__nextButton,  &__prevButton{
+                            z-index: 1;
+                            position: absolute;
+                            right: 5px;
+                            top: calc(50% - 56px/2);
+                            cursor: pointer;
+                            & svg:hover *{
+                                fill: rgb(186, 195, 214);;
+                            }
+                        }
+                        &__prevButton{
+                            right: 95.8%;
+                            transform:rotate(-180deg);
+                        }
                         &-video{
                             display: none;
                             position: absolute;
