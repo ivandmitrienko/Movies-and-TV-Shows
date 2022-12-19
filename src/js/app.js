@@ -1,3 +1,1 @@
-import authentification from './modules/authentification.js';
-
-
+import authentification from './modules/authentification.js'

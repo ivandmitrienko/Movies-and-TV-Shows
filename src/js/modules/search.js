@@ -22,9 +22,14 @@ searcher.addEventListener("keydown", (EO) => {
 
         getItemsBE();
 
-        function f(data, searcherValue, title, items){
-            title.innerText = data.length?`Found ${data.length} results for \‘${searcherValue}\’`:"Not results";
+        function f(data, searcherValue, title, items) {
+            title.innerText = data.length&&searcherValue? `Found ${data.length} results for \‘${searcherValue}\’` : "Not results";
+            if (searcherValue) {
                 showItemsBE(data, items);
-        }  
-    }  
+                searcher.value = '';
+            } else{
+                searcher.value = '';  
+            };
+        }
+    }
 })
