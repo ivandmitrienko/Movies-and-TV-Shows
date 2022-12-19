@@ -1,9 +1,9 @@
 "use strict"
 
-import { contentOfPage } from "./contentOfPage.js";
 import { showItemsBE } from "./showItemsBE.js";
 
 export function searchBookmarkedItems() {
+    history.pushState({ bookmarked: "bookmarked" }, null, 'bookmarked');
     const arrOfBookmarkedItems = Object.values(localStorage);
     const arrOfItems = [];
     for (let i = 0; i < arrOfBookmarkedItems.length; i++) {
@@ -34,5 +34,4 @@ export function searchBookmarkedItems() {
         showItemsBE(arrOfTVSeries, items);
     }
 
-    history.pushState({ bookmarked: "bookmarked" }, null, 'bookmarked');
 }
