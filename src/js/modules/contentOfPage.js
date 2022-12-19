@@ -24,5 +24,8 @@ export function contentOfPage() {
         BEfunction(allContentBE, titleContentBE, page_content);
     };
 
+    // if(history.state.bookmarked){
+    // }
+
     return mainContent;
 }

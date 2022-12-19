@@ -1,12 +1,10 @@
 import { contentOfPage } from './contentOfPage.js';
 import { svgFunc } from './svgIconFunctions.js';
+import { showBookmarkedItems } from './showBookmarkedItems.js';
 import searcher from './search.js';
-// import { showBookmarkedItems } from './showBookmarkedItems.js';
-
 
 svgFunc();
-// showBookmarkedItems()
-
+showBookmarkedItems();
 
 window.addEventListener('popstate', ()=>contentOfPage());
 

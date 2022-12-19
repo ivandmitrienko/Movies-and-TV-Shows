@@ -34,5 +34,6 @@ export function showBookmarkedItems() {
             page_content.appendChild(items);
             showItemsBE(arrOfTVSeries, items);
         }
+        history.pushState( {bookmarked:"bookmarked"}, null, 'bookmarked');
     })
 }
