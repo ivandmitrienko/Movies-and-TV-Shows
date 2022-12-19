@@ -1,7 +1,6 @@
 "use strict"
 
 import { newPage } from "./history.js";
-import { showBookmarkedItems } from './showBookmarkedItems.js';
 
 export function svgFunc() {
     const homeIcon = document.querySelector('.home');

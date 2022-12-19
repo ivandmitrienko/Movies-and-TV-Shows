@@ -1,6 +1,7 @@
 "use strict"
 
 import { BEfunction } from "./BEfunction.js";
+import { searchBookmarkedItems } from "./searchBookmarkedItems.js";
 
 export function contentOfPage() { 
     const keyBE = history.state.firstKey;
@@ -24,8 +25,9 @@ export function contentOfPage() {
         BEfunction(allContentBE, titleContentBE, page_content);
     };
 
-    // if(history.state.bookmarked){
-    // }
+    if(history.state.bookmarked){
+        searchBookmarkedItems();
+    }
 
     return mainContent;
 }
