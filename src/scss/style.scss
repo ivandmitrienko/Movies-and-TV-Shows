@@ -1,0 +1,131 @@
+@import './partials/zeroing.scss';
+@import './fonts.scss';
+@import './partials/root.scss';
+
+%tplfont1{
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF; 
+}
+
+$white: #FFFFFF;
+$black: #161D2F;
+$red: #FC4747;
+
+* {
+    font-family: 'Outfit-Light';
+}
+
+body{
+    background-color: #10141E;
+    .user-authentification{
+        display: block; 
+    }
+    .movieIcon{
+        position: absolute;
+        width: 32px;
+        height: 25.6px;
+        top: 78.41px;
+        left: calc(50% - 32px/2);
+    }
+    .login {
+        margin: 187px auto 0;
+        max-width: 400px;
+        max-height: 50%;
+        background: #161D2F;
+        border-radius: 20px;
+        padding: 32px;
+        h1 {
+            font-size: 32px;
+            line-height: 40px;
+            letter-spacing: -0.5px; 
+            color: $white;
+            margin-bottom: 40px;     
+        }
+        .authentication{
+            display: flex;
+            flex-direction: column;
+            span{
+                position: absolute;
+                right: 5%;
+                top: 8%;
+                color: $red;
+                font-size: 13px;
+            }
+            input:not(.authentication-button__submit){
+                display: block;
+                width: 100%;
+                caret-color: $red;
+                @extend %tplfont1;
+                background-color: $black;
+                border-bottom: 1px solid #5A698F;
+                margin-bottom: 24px;
+                padding: 0 0 17px 16px;
+                cursor: pointer;
+                &::placeholder{
+                    opacity: 0.5;
+                }
+                &:hover{
+                    border-color: $white;
+                }
+            }
+            .authentication-email{
+                position: relative;
+            }
+            .authentication-password-first{
+                position: relative;
+            }
+            .authentication-password-second {
+                position: relative;
+                height: 0; 
+                transition: height 0.5s linear;
+                input,span{
+                    display: none;
+                } 
+                &--active{
+                    position: relative;
+                    height: 60px;
+                    transition: height 0.5s ease-out;
+                    input,span{
+                        display: block;
+                    } 
+                }
+            }
+            .authentication-button {
+               &__submit{
+                    margin: 16px 0 24px;
+                    height: 48px;
+                    width: 100%;
+                    background: $red;
+                    border-radius: 6px;
+                    @extend %tplfont1; 
+                    text-align: center;
+                    &:hover{
+                        background-color: $white;
+                        color: $black;
+                    }
+                }
+            } 
+        }   
+        .create-account {
+            position: relative;
+            width: 216px;
+            margin: 0 auto;
+            @extend %tplfont1;
+            &__question {
+                margin-right: 3px;
+            } 
+            &__sign-up {
+               color: #FC4747;
+               &:hover{
+                   cursor: pointer;
+               }
+            }
+        }  
+    } 
+}   
+
+
+
+
+

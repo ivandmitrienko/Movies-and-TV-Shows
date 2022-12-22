@@ -1,0 +1,318 @@
+#root{
+    display:none;
+    .sidebar{
+        position: fixed;
+        left: 32px;
+        top: 32px;
+        width: 96px;
+        height: 890px;
+        background: #161D2F;
+        border-radius: 20px;
+        &-icon-user{
+            position: absolute;
+            bottom: 5%;
+            left: calc(50% - 60px/2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid gray;
+            &:hover{
+                border-color: #FC4747;
+                cursor: pointer;
+            }
+            & svg{
+                width: 40px;
+                height: 40px;
+            }
+        }
+        &-items{
+            .movieIcon{
+                top: 40.41px;
+            }
+            &-icons{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                left: 50%;
+                top: 18%;
+                transform: translate(-50%, 0); 
+                & svg{
+                    cursor: pointer;
+                    width: 20px;
+                    height: 20px;
+                    &:hover path{
+                        fill: #FC4747;
+                    }
+                }
+                & svg:not(:last-child){
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+    .content{
+        &-video{
+            position: fixed;
+            width: 50%;
+            height: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border: 3px solid rgb(75, 95, 131);
+            &__closer{
+                text-align: center;
+                padding-top: 7px;
+                position: absolute;
+                top: -15px;
+                right: -15px;
+                width: 30px;
+                height: 30px;
+                background-color: #FFFFFF;
+                color: #000;
+                border-radius: 50%;
+                font-size: 18px;
+                font-weight: bolder;
+                cursor: pointer;
+            }
+            & iframe{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        position: absolute;
+        top: 61px;
+        left: 196px;
+        width: 85vw;
+        height: 100%;
+        & img{
+            position: absolute;
+            right: 20px;
+        }
+        &-search{
+            width: 100%;
+            &:before{
+                content: '';
+                position: absolute;
+                width: 32px;
+                height: 32px;
+                background: url('../../img/loupe.svg') 0 100% no-repeat;
+            }  
+            & input{  
+                caret-color: #FC4747;
+                width: 100%;
+                height: 47px;
+                font-size: 24px;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                background-color: #10141E;
+                padding-bottom: 15px;
+                padding-left: 56px;
+                &:hover{
+                    border-bottom: 2px solid #5A698F;
+                    cursor: pointer;
+                } 
+                &::placeholder{
+                    opacity: 0.5;
+                }
+            }
+        }
+        & #mainContent{
+            width: 100%;
+            height: 100%;
+            & .page{
+                max-width: 1570px;
+                overflow: hidden;
+                &-content{
+                    & h1{
+                        color: #FFFFFF;
+                        font-size: 32px;
+                        line-height: 40px;
+                        letter-spacing: -0.5px;
+                        margin: 34px 0 25px 0;
+                        &::first-letter{
+                            text-transform: uppercase;
+                        }
+                    }
+                    .items{
+                        position: relative;
+                        &__nextButton,  &__prevButton{
+                            z-index: 1;
+                            position: absolute;
+                            right: 0.4%;
+                            top: calc(26.2% - 56px/2);
+                            cursor: pointer;
+                            opacity: 1;
+                            transition: all ease 1s;
+                            & svg:hover *{
+                                fill: rgb(186, 195, 214);;
+                            }
+                        }
+                        &__prevButton{
+                            right: 95.7%;
+                            transform:rotate(-180deg);
+                            opacity: 0;
+                        }
+                        &-video{
+                            display: none;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%,-50%);
+                            width: 117px;
+                            height: 48px;
+                            background: rgba(255,255,255,0.25);
+                            mix-blend-mode: normal;
+                            border-radius: 28.5px;
+                            color: #FFFFFF;
+                            text-align: end;
+                            font-size: 18px;
+                            font-family: "Outfit-Medium";
+                            font-weight: bold;
+                            padding: 14px 24px 0 0;
+                            &:hover{
+                                box-shadow: 0px 2px 5px 6px rgba(255,255,255,0.5);
+                            }
+                            & svg{
+                                position: absolute;
+                                top: 9px;
+                                left: 9px;
+                            }
+                        }
+                        &--trending{
+                            padding: 0 40px;
+                            display: grid;
+                            grid-template: repeat(1, 230px) / repeat(8, 470px);
+                            column-gap: 45px;
+                            left: 0;
+                            transition: all ease 1s;
+                            .items-content{
+                                position: relative;
+                                cursor: pointer;
+                            }
+                            .items-item{
+                                width: 100%;
+                                height: 100%;
+                            }
+                            .items-description{
+                                padding: 24px;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: end;
+                                justify-content: space-between;
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100px;
+                                color: #FFFFFF;
+                                &__yearCategoryAge{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    height: 19px;
+                                    opacity: 0.75;
+                                    font-size: 15px;
+                                    mix-blend-mode: normal;
+                                    width: 150px;
+                                    span{
+                                        height: 100%;
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                    img{
+                                        position: inherit;
+                                        width: 12px;
+                                        height: 12px;
+                                        margin-right: 5px;
+                                    }
+                                }
+                                &__title{
+                                    width: 150px;
+                                    font-size: 24px;
+                                    & span{
+                                        font-family: 'Outfit-Medium';
+                                    }
+                                }
+                            }    
+                        }
+                        &--recommended, &--movies, &--TVseries, &--bookmarked, &--searched{
+                            display: flex;
+                            flex-wrap: wrap;
+                            color: #FFFFFF;
+                            .items-content{
+                                position: relative;
+                                cursor: pointer;
+                                width: 280px;
+                                height: 226px;
+                                margin-bottom: 32px;
+                            }
+                            .items-item{
+                                width: 280px;
+                                height: 174px;
+                            }
+                            .items-description{
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-evenly;
+                                margin-top: 8px;
+                                width: 100%;
+                                height: 44px;
+                                &__yearCategoryAge{
+                                    opacity: 0.75;
+                                    height: 16px;
+                                    img{
+                                        position: inherit;
+                                        width: 12px;
+                                        height: 12px;
+                                        margin-right: 3px;
+                                    }
+                                }
+                                &__title{
+                                    font-size: 17px;
+                                    & span{
+                                        font-family: 'Outfit-Medium';
+                                    }
+                                }
+                            }
+                        }
+                        &--recommended, &--movies, &--TVseries {
+                            justify-content: space-between;
+                        }
+                        &--bookmarked .items-content:not(:nth-child(5n+5)), &--searched .items-content:not(:nth-child(5n+5)){
+                            margin-right: 40px;
+                        }
+                        &-item{
+                            position: relative;
+                            border-radius: 8px;
+                            &__bookmarked{
+                                position: absolute;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                top: 16px;
+                                right: 16px;
+                                border-radius: 50%;
+                                width: 32px;
+                                height: 32px;
+                                background:rgba(16, 20, 30, 0.5);
+                                mix-blend-mode: normal;
+                                cursor: pointer;
+                                &--active, &:hover{
+                                    background-color: #FFFFFF;
+                                }
+                                &--active svg, &:hover svg{
+                                  fill: #FFFFFF;
+                                  & path{
+                                      stroke: #10141E;
+                                  }
+                                }
+                            }
+                        }           
+                    }
+                }
+            }
+        }
+    } 
+}  
